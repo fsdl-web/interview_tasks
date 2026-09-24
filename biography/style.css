@@ -1,0 +1,42 @@
+
+	        * {
+	            margin: 0;
+	            padding: 0;
+	            box-sizing: border-box;/* 锁定盒子大小,不因为其他设定对其大小进行适应 */
+	            font-family: "Microsoft Yahei", sans-serif;/* 字体设置 */
+	        }
+	        body {
+	            background-color: #f5f5e6;
+	            padding: 70px;
+	        }
+	        .container/* 盒子外观设置 */{
+	            width: 800px;/* 盒子的宽度 */
+	            margin: 0 auto; /* 整体页面居中 */
+	            background: #ffffff;/* 盒子内背景 */
+	            border: 2px solid #dbdbde;/* 盒子外边框 */
+	            border-radius: 20px;/* 盒子的圆角设置 */
+	            padding: 70px; /* 盒子内部上下边距 */
+	        }
+	        h1/* 一级标题 */ {
+	            text-align: center;/* 水平居中 */
+	            color: #24292f;
+	            margin-bottom: 30px;/* 盒子之间的间距 */
+	            font-size: 40px;/* 字体大小 */
+	        }
+	        .section/* 盒子内部再进行创建盒子 */ {
+	            margin-bottom: 40px;
+				background:#e9fffb;
+	            padding-left: 20px;
+	        }
+	        h2 /* 二级标题 */{
+	            color: #24292f;
+	            margin-bottom:12px;
+	            font-size:20px;
+	        }
+	        p {
+	            color: #10396b;
+	            line-height: 1.8;/* 行高设置 */
+	            font-size:16px;
+	        }
+	        
+
